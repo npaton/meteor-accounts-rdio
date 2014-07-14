@@ -13,7 +13,7 @@ if (Meteor.isClient) {
     };
 } else {
     var publicFields = ['services.rdio.url'];
-    var privateFields = _.union(publicFields, ['services.rdio.firstName', 'services.rdio.lastName', 'services.rdio.icon',
+    var privateFields = _.union(publicFields, ['services.rdio.firstName', 'services.rdio.lastName', 'services.rdio.icon', 'services.rdio.playbackToken',
             'services.rdio.icon250', 'services.rdio.icon500', 'services.rdio.key', 'services.rdio.url', 'services.rdio.libraryVersion']);
 
     Accounts.addAutopublishFields({

@@ -8,7 +8,7 @@ Package.on_use(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('meteor-rdio', ['client', 'server']);
+  api.use('rdio', ['client', 'server']);
   api.use('service-configuration', ['server']);
 
   api.use('http', ['client', 'server']);

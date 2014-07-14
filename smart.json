@@ -3,9 +3,9 @@
    "description": "Login service for Rdio",
    "homepage": "https://github.com/npaton/meteor-accounts-rdio",
    "author": "Nicolas Paton <nicolas.paton@gmail.com>",
-   "version": "0.1.2",
+   "version": "0.1.3",
    "git": "https://github.com/npaton/meteor-accounts-rdio.git",
   	"packages": {
-    	"linkedin": "0.0.2"
+    	"rdio": "0.1.3"
   	}
 }
